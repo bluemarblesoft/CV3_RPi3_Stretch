@@ -1,0 +1,391 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a5be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a5be.dir/build.make CMakeFiles/cmTC_1a5be.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a5be.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_1a5be.dir/src.cxx.o -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_1a5be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a5be.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_1a5be.dir/src.cxx.o  -o cmTC_1a5be -rdynamic 
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d22e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d22e5.dir/build.make CMakeFiles/cmTC_d22e5.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d22e5.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_d22e5.dir/src.cxx.o -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_d22e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d22e5.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_d22e5.dir/src.cxx.o  -o cmTC_d22e5 -rdynamic 
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea9f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea9f7.dir/build.make CMakeFiles/cmTC_ea9f7.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea9f7.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_ea9f7.dir/src.c.o   -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_ea9f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea9f7.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_ea9f7.dir/src.c.o  -o cmTC_ea9f7 -rdynamic 
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c984d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c984d.dir/build.make CMakeFiles/cmTC_c984d.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c984d.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_c984d.dir/src.c.o   -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_c984d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c984d.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_c984d.dir/src.c.o  -o cmTC_c984d -rdynamic 
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_efe15/fast"
+/usr/bin/make -f CMakeFiles/cmTC_efe15.dir/build.make CMakeFiles/cmTC_efe15.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_efe15.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_efe15.dir/src.cxx.o -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_efe15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efe15.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_efe15.dir/src.cxx.o  -o cmTC_efe15 -rdynamic 
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b962d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b962d.dir/build.make CMakeFiles/cmTC_b962d.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b962d.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_b962d.dir/src.c.o   -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.c
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_b962d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b962d.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_b962d.dir/src.c.o  -o cmTC_b962d -rdynamic 
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_neon.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3bf1e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3bf1e.dir/build.make CMakeFiles/cmTC_3bf1e.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3bf1e.dir/cpu_neon.cpp.o
+/usr/bin/c++     -O3 -DNDEBUG   -o CMakeFiles/cmTC_3bf1e.dir/cpu_neon.cpp.o -c /home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_neon.cpp
+/home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_neon.cpp:20:2: error: #error "NEON is not supported"
+ #error "NEON is not supported"
+  ^~~~~
+/home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_neon.cpp: In function ‘int main()’:
+/home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_neon.cpp:25:23: error: ‘test’ was not declared in this scope
+   printf("%d\n", test());
+                       ^
+CMakeFiles/cmTC_3bf1e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3bf1e.dir/cpu_neon.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTC_3bf1e.dir/cpu_neon.cpp.o] Error 1
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3bf1e/fast' failed
+make: *** [cmTC_3bf1e/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_fp16.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f025/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f025.dir/build.make CMakeFiles/cmTC_6f025.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6f025.dir/cpu_fp16.cpp.o
+/usr/bin/c++     -O3 -DNDEBUG   -o CMakeFiles/cmTC_6f025.dir/cpu_fp16.cpp.o -c /home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_fp16.cpp
+/home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_fp16.cpp: In function ‘int test()’:
+/home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_fp16.cpp:21:5: error: ‘float16x4_t’ was not declared in this scope
+     float16x4_t v_dst = vcvt_f16_f32(v_src);
+     ^~~~~~~~~~~
+/home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_fp16.cpp:22:19: error: expected primary-expression before ‘)’ token
+     *(float16x4_t*)dst = v_dst;
+                   ^
+CMakeFiles/cmTC_6f025.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6f025.dir/cpu_fp16.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTC_6f025.dir/cpu_fp16.cpp.o] Error 1
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6f025/fast' failed
+make: *** [cmTC_6f025/fast] Error 2
+
+===== END =====
+
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_fp16.cpp'
+    check option: ' -mfpu=neon-fp16'
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbb47/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dbb47.dir/build.make CMakeFiles/cmTC_dbb47.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dbb47.dir/cpu_fp16.cpp.o
+/usr/bin/c++     -O3 -DNDEBUG   -mfpu=neon-fp16 -o CMakeFiles/cmTC_dbb47.dir/cpu_fp16.cpp.o -c /home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_fp16.cpp
+/home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_fp16.cpp: In function ‘int test()’:
+/home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_fp16.cpp:21:5: error: ‘float16x4_t’ was not declared in this scope
+     float16x4_t v_dst = vcvt_f16_f32(v_src);
+     ^~~~~~~~~~~
+/home/pi/Packages/opencv-3.3.0/cmake/checks/cpu_fp16.cpp:22:19: error: expected primary-expression before ‘)’ token
+     *(float16x4_t*)dst = v_dst;
+                   ^
+CMakeFiles/cmTC_dbb47.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_dbb47.dir/cpu_fp16.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTC_dbb47.dir/cpu_fp16.cpp.o] Error 1
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dbb47/fast' failed
+make: *** [cmTC_dbb47/fast] Error 2
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a99e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a99e4.dir/build.make CMakeFiles/cmTC_a99e4.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a99e4.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_a99e4.dir/src.c.o   -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_a99e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a99e4.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_a99e4.dir/src.c.o  -o cmTC_a99e4 -rdynamic 
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9588a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9588a.dir/build.make CMakeFiles/cmTC_9588a.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9588a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_9588a.dir/CheckIncludeFile.c.o   -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+ #include <linux/videodev.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTC_9588a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9588a.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9588a.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9588a/fast' failed
+make: *** [cmTC_9588a/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_715f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_715f7.dir/build.make CMakeFiles/cmTC_715f7.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_715f7.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_715f7.dir/CheckIncludeFile.c.o   -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTC_715f7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_715f7.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_715f7.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_715f7/fast' failed
+make: *** [cmTC_715f7/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8d9b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8d9b.dir/build.make CMakeFiles/cmTC_f8d9b.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f8d9b.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG   -Wno-missing-prototypes -o CMakeFiles/cmTC_f8d9b.dir/src.cxx.o -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_f8d9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8d9b.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG     CMakeFiles/cmTC_f8d9b.dir/src.cxx.o  -o cmTC_f8d9b -rdynamic 
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcd96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fcd96.dir/build.make CMakeFiles/cmTC_fcd96.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fcd96.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG   -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_fcd96.dir/src.cxx.o -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_fcd96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcd96.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG     CMakeFiles/cmTC_fcd96.dir/src.cxx.o  -o cmTC_fcd96 -rdynamic 
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93425/fast"
+/usr/bin/make -f CMakeFiles/cmTC_93425.dir/build.make CMakeFiles/cmTC_93425.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_93425.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_93425.dir/src.cxx.o -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_93425
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93425.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG     CMakeFiles/cmTC_93425.dir/src.cxx.o  -o cmTC_93425 -rdynamic 
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d534/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d534.dir/build.make CMakeFiles/cmTC_0d534.dir/build
+make[1]: Entering directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d534.dir/src.cxx.o
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG   -Wno-unused-private-field -o CMakeFiles/cmTC_0d534.dir/src.cxx.o -c /home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx
+/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_0d534
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d534.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections  -mfp16-format=ieee -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-overloaded-virtual  -O3 -DNDEBUG     CMakeFiles/cmTC_0d534.dir/src.cxx.o  -o cmTC_0d534 -rdynamic 
+make[1]: Leaving directory '/home/pi/Packages/opencv-3.3.0/build/CMakeFiles/CMakeTmp'
+
+===== END =====
+
